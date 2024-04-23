@@ -1,0 +1,792 @@
+* {
+  margin: auto;
+  box-sizing: border-box;
+}
+
+/* First Nav Start */
+
+.header {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.first_image {
+  width: auto;
+  width: 180px;
+  height: 55px;
+}
+
+.top_nav {
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#SignIn_text {
+  position: relative;
+  right: 0px;
+  top: 0%;
+  color: rgb(255, 255, 255);
+}
+
+.SignIn_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: rgb(0, 170, 255);
+  border: 1px solid rgba(5, 5, 33, 0);
+  border-radius: 25px;
+  padding-left: 8px;
+  padding-right: 2px;
+  color: white;
+}
+
+.SignIn_button:hover {
+  background-color: rgba(2, 49, 120, 0.984);
+}
+
+/* First Nav End */
+
+/* Second Nav Start */
+
+.header_2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  background-color: rgb(255, 213, 0);
+  padding: 8px;
+}
+
+.image_3 {
+  position: relative;
+  left: 130px;
+}
+
+#header_2_text {
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 600;
+  position: relative;
+  right: 90px;
+}
+/* Second Nav Start */
+
+/* Third Nav Start */
+
+.header_3 {
+  display: flex;
+  /* justify-content: space-around;
+        align-items: center; */
+  position: relative;
+  left: 480px;
+}
+.small_image {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  bottom: 80px;
+  right: 350px;
+}
+
+.header_3_text {
+  position: relative;
+  top: 80px;
+  right: 440px;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.para_1 {
+  position: relative;
+  right: 690px;
+  top: 230px;
+  font-size: 25px;
+  font-weight: 600;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.button {
+  display: flex;
+}
+
+.image_4 {
+  position: relative;
+  top: 320px;
+  right: 1150px;
+  width: 210px;
+  height: 50px;
+}
+
+.big_image {
+  width: 520px;
+  height: 480px;
+  position: relative;
+  top: 80px;
+  right: 485px;
+}
+
+/* Section Four Start  */
+.section_4 {
+  background-color: rgba(50, 164, 235, 0.89);
+  color: white;
+  font-size: large;
+}
+
+.Recharge_1_text {
+  position: relative;
+}
+
+.Recharge_1 {
+  display: flex;
+  margin: 20px;
+  padding: 50px;
+}
+
+#Recharge_1_text {
+  font-size: x-large;
+  position: relative;
+  left: 130px;
+  top: 30px;
+}
+
+#img_1 {
+  width: 64px;
+  height: 64px;
+}
+
+/* Section Five Start  */
+
+.section_5 {
+  background-color: rgb(3, 56, 136);
+  color: white;
+  font-size: large;
+}
+
+.Recharge_2 {
+  display: flex;
+  margin: 0px;
+  padding: 50px;
+}
+
+#Recharge_2_text {
+  font-size: x-large;
+  position: relative;
+  left: 130px;
+  top: 30px;
+}
+
+#img_2 {
+  width: 64px;
+  height: 64px;
+}
+
+/* Section Six Start  */
+.back_color {
+  background-color: rgb(225, 226, 227);
+}
+
+.Payment_Instruments {
+  font-size: 50px;
+  position: relative;
+  left: 110px;
+  top: 80px;
+}
+
+/* Section Six_1 Start  */
+
+.section_6 {
+  display: flex;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  background-color: white;
+  width: 1100px;
+  height: 550px;
+  padding-bottom: 200px;
+  position: relative;
+  top: 100px;
+}
+
+.img_3 {
+  /* display: flex; */
+  position: relative;
+  top: 50px;
+  right: 150px;
+}
+
+#img_3 {
+  width: 92px;
+  height: 77px;
+  position: relative;
+  top: 150px;
+  right: -80px;
+}
+
+span {
+  position: relative;
+  top: 110px;
+  right: -85px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+#span_1 {
+  position: relative;
+  right: -180px;
+}
+
+.Fastest_Pay {
+  font-size: 40px;
+  position: relative;
+  top: 120px;
+  right: -95px;
+}
+
+#para_2 {
+  font-size: 20px;
+  position: relative;
+  right: -100px;
+}
+
+#img_4 {
+  width: 232px;
+  height: 46px;
+  position: relative;
+  right: -100px;
+}
+
+.img_5 {
+  width: 540px;
+  height: 460px;
+  position: relative;
+  right: -20px;
+  top: 40px;
+}
+
+.section_7 {
+  position: relative;
+  bottom: 100px;
+}
+
+/* Section Seven Start  */
+.Section_Seven {
+  display: flex;
+  position: relative;
+  left: 300px;
+}
+/* Section Seven_1 Start  */
+
+.Section_Seven_1 {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  background-color: white;
+  width: 521px;
+  height: 663px;
+  /* padding-bottom:-150px; */
+  position: relative;
+  right: 195px;
+}
+
+#img_6 {
+  width: 185px;
+  height: 77px;
+  position: relative;
+  left: 40px;
+}
+
+#Unlimited_Cashback {
+  font-size: 40px;
+  position: relative;
+  left: 40px;
+}
+
+#Paytm_HDFC {
+  font-size: 20px;
+  position: relative;
+  left: 40px;
+}
+
+#Paytm_Payments_p {
+  position: relative;
+  left: 40px;
+}
+
+#img_7 {
+  width: 463px;
+  height: 296px;
+  position: relative;
+  left: 40px;
+}
+
+/* Section Seven_2 Start  */
+.Section_Seven_2 {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  background-color: white;
+  width: 521px;
+  height: 663px;
+  position: relative;
+  right: 400px;
+}
+
+#img_8 {
+  width: 196px;
+  height: 20px;
+  position: relative;
+  left: 40px;
+  top: 55px;
+}
+
+/* #img_6 {
+    width: 185px;
+    height: 77px;
+    position: relative;
+    left: 40px;
+  } */
+
+#Unlimited_Cashback_1 {
+  font-size: 40px;
+  position: relative;
+  left: 40px;
+  top: 55px;
+}
+
+#Paytm_HDFC_1 {
+  font-size: 20px;
+  position: relative;
+  left: 40px;
+  top: 55px;
+}
+
+#Paytm_Payments_p_1 {
+  position: relative;
+  left: 40px;
+  top: 55px;
+}
+
+#img_7_1 {
+  width: 463px;
+  height: 296px;
+  position: relative;
+  left: 40px;
+  top: 55px;
+}
+
+/* Section Eight Start  */
+.Section_Eight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Financial_Services {
+  font-size: 40px;
+  position: relative;
+  left: 200px;
+  bottom: 200px;
+}
+#img_9 {
+  width: 180px;
+  height: 35px;
+  position: relative;
+  left: 200px;
+  bottom: 200px;
+}
+
+#most_sincere_bank {
+  font-size: 30px;
+  position: relative;
+  left: 200px;
+  bottom: 200px;
+}
+
+#para_3 {
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  right: 260px;
+  top: 50px;
+}
+
+.btn_1 {
+  width: 163px;
+  height: 49px;
+  font-size: 18px;
+  background-color: rgb(3, 36, 118);
+  border: 1px solid rgb(3, 36, 118);
+  border-radius: 25px;
+  color: white;
+  position: relative;
+  right: 700px;
+  top: 200px;
+}
+
+#img_10 {
+  width: 452px;
+  height: 500px;
+  position: relative;
+  right: 200px;
+}
+
+/* Section Nine Start  */
+.btn_3 {
+  width: 163px;
+  height: 49px;
+  font-size: 18px;
+  background-color: rgb(3, 36, 118);
+  border: 1px solid rgb(3, 36, 118);
+  border-radius: 25px;
+  color: white;
+  position: relative;
+  top: 180px;
+  right: 440px;
+}
+
+/* Section Ten Start  */
+
+.Section_Ten {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+#img_9_Ten {
+  width: 182px;
+  height: 54px;
+  position: relative;
+  left: 200px;
+  bottom: 110px;
+}
+
+#most_sincere_bank_Ten {
+  font-size: 30px;
+  position: relative;
+  left: 200px;
+  bottom: 120px;
+}
+
+#para_3_Ten {
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  right: 120px;
+  top: 50px;
+}
+
+.btn_1_Ten {
+  width: 163px;
+  height: 49px;
+  font-size: 18px;
+  background-color: rgb(3, 36, 118);
+  border: 1px solid rgb(3, 36, 118);
+  border-radius: 25px;
+  color: white;
+  position: relative;
+  right: 630px;
+  top: 145px;
+}
+
+#img_10_Ten {
+  width: 433px;
+  height: 398.5px;
+  position: relative;
+  right: 200px;
+}
+
+/* Section Eleven Start  */
+
+.Section_Eleven {
+  display: flex;
+  border: 1px solid rgb(225, 226, 227);
+  background-color: rgb(225, 226, 227);
+  height: 600px;
+}
+
+#img_11 {
+  width: 433px;
+  height: 438px;
+  position: relative;
+  left: 130px;
+  top: 0px;
+}
+
+#img_12 {
+  width: 188.5px;
+  height: 54px;
+  position: relative;
+  bottom: 50px;
+  left: 150px;
+}
+#Personal_Loan {
+  font-size: 40px;
+  position: relative;
+  bottom: 30px;
+  left: 150px;
+}
+
+#para_4 {
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  bottom: 30px;
+  left: 150px;
+}
+
+.btn_2 {
+  width: 163px;
+  height: 49px;
+  font-size: 18px;
+  background-color: rgb(3, 36, 118);
+  border: 1px solid rgb(3, 36, 118);
+  border-radius: 25px;
+  color: white;
+  position: relative;
+  top: 150px;
+  right: 480px;
+}
+
+/* Section Twelve Start  */
+
+.Section_Twelve_1{
+  
+  border: 1px solid rgb(225, 226, 227);
+  background-color: rgb(225, 226, 227);
+  border-radius: 25px;
+  height: 650px;
+  width: 1100px;
+ 
+  
+}
+
+#Business_Services{
+  font-size:50px;
+  position: relative;
+  left: 180px;
+}
+#Accept_payments{
+  font-size:40px;
+  position: relative;
+  left: 100px;
+  top: 100px;
+}
+#payment_gateway{
+  font-size:20px;
+  position: relative;
+  left: 100px;
+  top: 100px;
+}
+.btn_4{
+  width: 163px;
+  height: 49px;
+  font-size: 18px;
+  background-color: rgb(3, 36, 118);
+  border: 1px solid rgb(3, 36, 118);
+  border-radius: 25px;
+  color: white;
+  position: relative;
+  left: 100px;
+  top: 100px;
+}
+.img_13{
+  width: 433px;
+  height: 464;
+  position: relative;
+  left: 665px;
+  bottom: 250px;
+}
+
+#business_grow{
+  font-size: 40px;
+  position: relative;
+  left: 180px;
+}
+
+/* Section Fourteen Start   */
+
+.business_grow{
+  display: flex;
+  justify-content: end;
+  width: 1300px;
+  position: relative;
+  left: 40px;
+}
+
+.img_14{
+  width: 240px;
+  height: 220px;
+  position: relative;
+  left: 30px;
+}
+
+#font_26{
+  font-size: 26px;
+  position: relative;
+  left: 30px;
+}
+
+#font_20{
+  font-size: 20px;
+  position: relative;
+  left: 30px;
+}
+
+#font_15{
+  font-size: 15px;
+  font-weight: 600;
+  position: relative;
+  left: 30px;
+}
+
+.img_15{
+  width: 160px;
+  height: 58px;
+}
+
+.para_5{
+font-size: 15px;
+}
+.paytm_investement{
+  display: flex;
+  
+}
+
+.paytm_investement_1{
+  display: flex;
+  gap: 20px;
+  
+}
+
+.paytm_investement_2{
+  position: relative;
+  left: 150px;
+}
+
+
+
+.paytm_Travel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+.Learn_more_1{
+ font-size: 17px;
+ color: rgb(41, 127, 212);
+}
+
+.img_16{
+  width: 145px;
+  height: 158px;
+}
+
+.Stocks{
+  width: 155px;
+  height: 240px;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(50, 173, 221);
+}
+
+
+
+.img_17{
+  width: 72px;
+  height: 72px;
+}
+
+
+#para_6{
+  font-size: 12px;
+}
+
+.Travel{
+
+
+    width: 155px;
+    height: 240px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(50, 173, 221);
+  
+}
+
+
+.last{
+  background-color:  rgb(225, 226, 227);
+  height: 1000px;
+  padding-top: 100px;
+  
+}
+
+
+
+.Download_Paytm{
+  display: flex;
+
+}
+
+#left_1{
+  position: relative;
+  left: 150px;
+}
+
+#left_2{
+  position: relative;
+  left: 30px;
+}
+#left_3{
+  position: relative;
+  right: 90px;
+}
+
+#Right_3{
+  position: relative;
+  right: 60px;
+}
+
+#Right_2{
+  position: relative;
+  left: 60px;
+}
+
+#Right_1{
+  position: relative;
+  left: 180px;
+}
+
+.para_last{
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 50px;
+  
+  
+}
+
+.border_1{
+  border: 5px solid rgb(0, 213, 255);
+  
+}
+
+.border_2{
+  border: 5px solid rgb(6, 60, 118);
+ 
+}
